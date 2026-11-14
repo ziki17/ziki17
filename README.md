@@ -11,6 +11,8 @@ I have been building and running web software for over ten years, since 2020 as 
 | --- | --- | --- |
 | [claude-pr-reviewer](https://github.com/ziki17/claude-pr-reviewer) | Reviews every new pull request in a GitHub organization from your own machine with the Claude Code CLI. Findings are filtered, checked by a refutation pass and posted as one inline review. No server, webhook or GitHub App. | Bash, Claude Code CLI, SQLite, Docker |
 | [kirby-ai-translate](https://github.com/ziki17/kirby-ai-translate) | Finds missing and stale translations on multilingual Kirby 5 sites and translates them with a glossary and link rewriting, with a preview before anything is written. | PHP, Anthropic API, DeepL, MCP |
+| [repo-radar](https://github.com/ziki17/repo-radar) | Weekly GitHub Actions job that collects trending repos and asks Claude which ones fit your own projects, then emails the findings. Use it as a template; no server needed. | Python, GitHub Actions, Anthropic API |
+| [no-trace-containers](https://github.com/ziki17/no-trace-containers) | Firefox extension that keeps chosen Multi-Account Containers out of your browsing history, with optional cookie wipe when the last tab closes. | JavaScript, WebExtensions (Manifest V3) |
 | [proxy-tester](https://github.com/ziki17/proxy-tester) | Multithreaded tester for HTTP, HTTPS, SOCKS4 and SOCKS5 proxy lists. | C, pthreads |
 
 ### What I work with
