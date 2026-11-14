@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 150" width="880" height="150" role="img" aria-label="Zakir Khan. Solutions Architect in Bonn. Cloud, full-stack and AI tooling.">
+  <style>
+    .name { font: 600 40px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #1f2328; letter-spacing: -0.5px; }
+    .tag { font: 400 16px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #59636e; }
+    .rule { stroke: #d1d9e0; stroke-width: 1; }
+    .cursor { fill: #1f2328; animation: move 2.6s 0.4s linear both, blink 1.1s 3s steps(1) infinite; }
+    .wipe { animation: wipe 2.6s 0.4s linear both; }
+    .rule { stroke-dasharray: 880; animation: draw 1.2s ease-out both; }
+    @keyframes wipe { from { width: 0; } to { width: 600px; } }
+    @keyframes move { from { transform: translateX(0); } to { transform: translateX(586px); } }
+    @keyframes blink { 50% { opacity: 0; } }
+    @keyframes draw { from { stroke-dashoffset: 880; } to { stroke-dashoffset: 0; } }
+    @media (prefers-reduced-motion: reduce) { .cursor, .wipe, .rule { animation: none; } .cursor { display: none; } }
+  </style>
+  <defs><clipPath id="c"><rect class="wipe" x="0" y="80" width="600" height="40"/></clipPath></defs>
+  <text class="name" x="0" y="52">Zakir Khan</text>
+  <g clip-path="url(#c)"><text class="tag" x="0" y="104" textLength="580" lengthAdjust="spacing">Solutions Architect in Bonn. Cloud, full-stack and AI tooling.</text></g>
+  <rect class="cursor" x="0" y="90" width="9" height="18"/>
+  <line class="rule" x1="0" y1="136" x2="880" y2="136"/>
+</svg>
